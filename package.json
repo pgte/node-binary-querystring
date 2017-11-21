@@ -13,6 +13,11 @@
     "pre-commit": "^1.2.2",
     "standard": "^10.0.3"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pget/node-binary-querystring.git"
+  },
+  "keywords": ["querystring", "query", "parse", "binary"],
   "pre-commit": [
     "lint",
     "test"
