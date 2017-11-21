@@ -1,0 +1,20 @@
+{
+  "name": "binary-querystring",
+  "version": "0.1.0",
+  "description": "query string parser to binary",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "node test"
+  },
+  "author": "Pedro Teixeira <i@pgte.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "pre-commit": "^1.2.2",
+    "standard": "^10.0.3"
+  },
+  "pre-commit": [
+    "lint",
+    "test"
+  ]
+}
